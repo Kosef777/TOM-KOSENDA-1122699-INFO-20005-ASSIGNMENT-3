@@ -1,0 +1,336 @@
+/* TOP NAV CSS (SEARCH, PROFILE, CART) */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    background-color: #ccc;
+    font-family: "Libre Franklin", sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    position: fixed;
+    top: 10;
+    width: 100%;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .05);
+    z-index: 100;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a{
+    float: right;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    
+  }
+
+  /* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+background: black;
+color: white;
+}
+
+/* Add a green background to dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #CC550C(144, 172, 88);
+color: white;
+} 
+
+/* MAIN NAV CSS  */
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .hero-btn:hover{
+    border: 1px solid black;
+    background: #CC550C;
+    transition: 0.5s;
+  }
+  
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  
+  .header-content{
+    float: none;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  
+  
+  
+  .nav{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: black;
+    font-family: "Libre Franklin", sans-serif;
+    overflow: hidden;
+  }
+  .nav li{
+    display:inline-block;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+  .nav a{
+    display:inline-block;
+    padding:10px 10px 0px 10px;
+    color: #f2f2f2;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .nav a:hover{
+    color: #CC550C;
+    opacity: 0.8;
+  }
+  
+  .nav li::after{
+    content: '';
+    width: 1%;
+    height: 2px;
+    background: #CC550C;
+    display: inline-block;
+    margin: auto;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  
+  .nav li:hover::after{
+    width: 100%;
+    opacity: 1;
+  }
+  
+/* FOOTER CSS */
+
+*,*:before,*:after{
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Libre Franklin", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    font-size: 14px;
+  }
+  
+  .right-box{
+    text-align: center;
+    margin: 50px;
+  }
+  
+  input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.2s;
+  }
+  
+  input[type="text"]{
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+  }
+  
+  input[type="submit"]{
+    position: relative;
+    
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #CC550C;
+    color: #fff;
+    left: -5px;
+    font-weight: 400;
+  }
+  
+  
+  input[type="submit"]:hover{
+    background: #ff6d12;
+    font-weight: 600;
+  }
+  
+  .btn {
+    background-color:#CC550C;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+  }
+  
+  .footer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #000000;
+    margin-top: 200px;
+  }
+  
+  .footer > *{
+    flex: 1 100%;
+  }
+  .l-footer{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer-left img{
+    width: 50%;
+  }
+  
+  h2{
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer ul{
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li{
+    line-height: 2em;
+  }
+  
+  .footer a{
+    text-decoration: none;
+  }
+  
+  .r-footer{
+    display: flex;
+    flex-flow: row wrap;  
+  } 
+  
+  .r-footer > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+  } 
+  
+  .box a{
+    color: #999;
+  }
+  
+  .box a:hover{
+    color: #fff;
+  }
+  
+  
+  .b-footer{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+  }
+  
+  .l-footer p{
+    padding-right: 20%;
+    color: #999;
+  
+  }
+  
+  @media screen and (min-width: 600px){
+    .r-footer > *{
+      flex: 1;
+    }
+    .features{
+      flex-grow: 2;
+    }
+    .l-footer{
+      flex: 1 0px;
+    }
+    .r-footer{
+      flex: 2 0px;
+    }
+  }
+
+  /* Scroll to TOP BUTTON CSS */
+
+.scroll-top {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  opacity: 0;
+  z-index: 1000;
+  transition: opacity 0.3s;
+ 
+}
+
+.scroll-top.show-btn {
+  opacity: 0.8;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.scroll-top.show-btn .scroll-top-btn {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+}
+
+.scroll-top.show-btn .circle-icon {
+  background: #CC550C;
+  color: white !important;
+  opacity: 0.9;
+  border-radius: 30px;
+  padding: 15px;
+  box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-top.show-btn .circle-icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.scroll-top.show-btn .circle-icon .icon {
+  transform: translate(0, 0);
+  transition: transform 0.3s;
+}
+
+.scroll-top.show-btn:hover .circle-icon .icon {
+  transform: translate(0, -5px);
+  transition: transform 0.3s;
+}

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600');
+
+html {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  margin-bottom: 0.5em;
+}
+
+p{
+  margin: 0.5em;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.body{
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.text-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1{
+  font-size: 56px;
+}
+
+.text-box a{
+  text-decoration: underline;
+}
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn:hover{
+  border: 1px solid black;
+  background: #CC550C;
+  transition: ease 0.5s;
+}
+
+.main {
+  padding-left: 0;
+  padding-right: 0;
+} 
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.small-container{
+  max-width: 1080;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: black;
+}
+
+
+
+h2 {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+main {
+  padding: 0;
+  text-align: center;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+background: black;
+color: white;
+}
+
+/* Add a green background to dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #CC550C(144, 172, 88);
+color: white;
+} 
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: #fff;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover{
+  background-color: #ddd;
+}
+
+.row:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Headers for document */
+
+.trending-heading strong{
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 700;
+  margin-top: 10%;
+  padding: 5px 30px;
+  border: 1px transparent ;
+ 
+}
+
+.trending-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trending-heading p{
+  color: #999;
+  margin: 10px;
+  font-size: 1rem;
+  padding-bottom: 75px;
+  text-decoration: underline;
+}
+
+hr {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 86%;
+  float: left;
+}
+
